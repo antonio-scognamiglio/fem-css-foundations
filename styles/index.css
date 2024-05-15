@@ -1,0 +1,38 @@
+/* @font-face {
+  font-family: Inter;
+  src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+} */
+
+@import url("/styles/shared.css");
+
+.home .main__heading {
+  font-size: 128px;
+  font-weight: 700;
+}
+
+.home .main__sub-heading {
+  font-size: 40px;
+}
+
+.home .menu path {
+  fill: var(--color-text-on-primary);
+}
+
+.home .close path {
+  fill: var(--color-text-on-primary);
+}
+
+@media (max-width: 1220px) {
+  .home .main__heading {
+    font-size: 70px;
+  }
+
+  @media (max-width: 590px) {
+    .home .main__heading {
+      font-size: 40px;
+    }
+    .home .main__sub-heading {
+      font-size: 24px;
+    }
+  }
+}
